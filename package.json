@@ -2,6 +2,7 @@
   "name": "addressbook",
   "version": "1.0.0",
   "description": "Simple Address Book",
+  "homepage": "https://github.com/vicenteopaso/simple-address-book",
   "main": "index.js",
   "keywords": [
     "simple",
@@ -9,7 +10,7 @@
     "book",
     "addressbook"
   ],
-  "author": "Vicente Opaso <vicente@opa.so>",
+  "author": "Vicente Opaso <vicente@opa.so> (https://opa.so/)",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
@@ -23,13 +24,11 @@
     "react-bootstrap-table-next": "^1.4.1",
     "react-bootstrap-table2-paginator": "^1.0.4",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
