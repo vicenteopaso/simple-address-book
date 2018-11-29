@@ -1,0 +1,25 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.SAB-header { padding-top: 60px; }
+.SAB-header h1 { padding-bottom: 20px; display: inline-block; font-size: 3rem; color: #6c757d }
+.SAB-header .svg-inline--fa { margin-top: 10px; float: right; color: #6c757d; }
+
+table td { overflow: hidden; }
+table .emailColumn { width: 30%; }
+table .actionsColumn { width: 100px; }
+table .actionsColumn div :last-child { margin-left: 20px; }
+table tr td.react-bs-table-no-data { padding: 90px 0; color: #999; }
+table tr td a { color: #6c757d; }
+table tr td a:hover { color: #444; }
+table .svg-inline--fa { color: #6c757d; cursor: pointer; }
+
+.pagination.react-bootstrap-table-page-btns-ul .page-link { border-color: #6c757d; color: #444; }
+.pagination.react-bootstrap-table-page-btns-ul .active .page-link { background: #6c757d; color: #fff; }
+
+.aid-text { display: none; }
+button.save { margin-left: 20px; }
